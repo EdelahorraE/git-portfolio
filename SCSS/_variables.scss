@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@500&display=swap");
+
+@mixin shadow {
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
+}
+
+@mixin font_contorno_dark {
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+}
+
+@mixin font_contorno_light {
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: white;
+}
+
+@mixin anton_font {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin oswald_font {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin background_images {
+  background-position: center center;
+  background-size: cover;
+}
