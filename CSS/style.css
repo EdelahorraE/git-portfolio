@@ -11881,25 +11881,25 @@ textarea.form-control-lg {
 }
 
 #principal_container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Assets/concepto-libreta-portatil(2).webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/concepto-libreta-portatil(2).webp");
 }
 
 #tema1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Assets/16692831_5793466.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/16692831_5793466.webp");
   background-position: center center;
   background-size: cover;
   text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
 }
 
 #tema2 {
-  background-image: url("/Assets/sass2-1.webp");
+  background-image: url("../Assets/sass2-1.webp");
   background-position: center center;
   background-size: cover;
   color: black;
 }
 
 #tema3 {
-  background-image: url("/Assets/2147924109.webp");
+  background-image: url("../Assets/2147924109.webp");
   background-position: center center;
   background-size: cover;
   color: black;
@@ -11907,7 +11907,7 @@ textarea.form-control-lg {
 }
 
 #tema4 {
-  background-image: url("/Assets/9874285.webp");
+  background-image: url("../Assets/9874285.webp");
   background-position: center center;
   background-size: cover;
   color: black;
