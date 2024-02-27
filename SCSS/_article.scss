@@ -1,30 +1,30 @@
 @import "variables";
 
 #principal_container {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/Assets/concepto-libreta-portatil(2).webp"); //Imagenes oscurecidas para mejorar visibilidad del texto sobre la imagen
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("Assets/concepto-libreta-portatil(2).webp"); //Imagenes oscurecidas para mejorar visibilidad del texto sobre la imagen
 } 
 
 #tema1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/Assets/16692831_5793466.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("Assets/16692831_5793466.webp");
     @include background_images;
     @include shadow;
 }
 
 #tema2 {
-    background-image: url("/Assets/sass2-1.webp");
+    background-image: url("Assets/sass2-1.webp");
     @include background_images;
     color: black;
 }
 
 #tema3 {
-    background-image: url("/Assets/2147924109.webp");
+    background-image: url("Assets/2147924109.webp");
     @include background_images;
     color: black;
     @include shadow;
 }
 
 #tema4 {
-    background-image: url("/Assets/9874285.webp");
+    background-image: url("Assets/9874285.webp");
     @include background_images;
     color: black;
     @include shadow;
